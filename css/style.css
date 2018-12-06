@@ -1,0 +1,203 @@
+header {
+	padding: 5px 40px;
+    background-color: #f6f6f6;
+    border-top: 3px solid #0fb2fc;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+    z-index: 1;
+}
+
+
+#content{
+   
+    background-color: #073667;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-top {
+    padding: 25px 0;
+}
+.title {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+.title i{
+    margin: 0 10px 0 0;
+    font-size: 21px;
+}
+.pad-lzero{
+    padding-left: 0;
+}
+.profit{
+    color: #177717;
+}
+.loss{
+    color: #540707;
+}
+.snap-shot {
+    text-align: center;
+    background: rgba(0,0,0,.2);
+    padding: 8px;
+    margin: 0 0 20px;
+}
+.snap-shot label{
+    text-transform: uppercase;
+    color: rgba(255,255,255,.3);
+    margin: 0 0 10px;
+}
+.funds li{
+
+    color: rgba(255,255,255,.9);
+    position: relative;
+    padding: 0 0 10px 12px;
+    text-align: right;
+}
+.chart{
+    text-align: center;
+}
+.chart img{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+.funds li label{
+    float: left;
+}
+.funds li:after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 16px;
+    background: #1069b5;
+    left: 0;
+    top: 4px;
+
+}
+.bottom-bar {
+    padding: 10px 0;
+    border-top: 2px solid rgba(217, 217, 217, 0.2);
+    background: #114a86;
+    text-align: center;
+
+}
+.action-btn{
+    display: inline-block;
+    padding: 8px 20px;
+    background: #921d1d;
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+}
+.notification{
+    margin: 0 15px 0 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+#invest-cards {
+    padding: 20px 0;
+}
+#invest-cards .nav-tabs>li{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#invest-cards .nav-tabs>li.active>a, #invest-cards .nav-tabs>li.active>a:hover, #invest-cards .nav-tabs>li.active>a:focus{
+    border: none;
+    border-bottom: 3px solid #194e84;
+    color: #000;
+}
+.tab-content{
+    padding: 30px 0 0;
+}
+.invest-card{
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+.top-card {
+    position: relative;
+}
+.fund-name{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+.top-card img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+.funds-year {
+    background: rgba(0,0,0,.5);
+    padding: 8px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.nav-tabs>li>a:hover{
+    background: transparent;
+    border-color: transparent;
+}
+.middle-card li{
+    padding: 8px;
+    border: 1px solid #d9d9d966;
+    font-weight: bold;
+    color: #000;
+    text-align: right;
+}
+.middle-card ul{
+    margin: 0;
+}
+.middle-card label{
+    color: rgba(0,0,0,.5);
+    font-weight: normal;
+    float: left;
+}
+.bottom-card ul{
+    margin: 0;
+}
+
+.bottom-card li{
+    padding: 0;
+    margin: 0 0 0 -4px;
+    width: 33.3%;
+}
+.bottom-card li:first-child{
+    margin: 0;
+}
+.bottom-card a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background: #073667;
+    text-decoration: none;
+}
+.bottom-card .invest-btn{
+    background: #357f35;
+}
+.bottom-card .withdraw-btn{
+    background: #9a1313;
+}
+.add-card  span{
+    display: block;
+}
+.add-card i {
+    font-size: 48px;
+    font-weight: 400;
+}
+.add-card {
+    border: 1px solid #d9d9d9;
+    height: 440px;
+    text-align: center;
+    color: #073667;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 180px 0 0;
+}
